@@ -1,0 +1,31 @@
+#section-b{
+    background: url(../img/camera.jpeg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    height: 70vh;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 3rem;
+        font-family: "Open Sans Condensed", Helvetica, sans-serif ;
+        color :$white-color;
+        margin-bottom: 2%;
+    }
+    p{
+        font-size: 1.2rem;
+        width: 50%;
+        line-height: 1.7;
+        color: $white-color;
+        margin-bottom: 2%;
+    }
+
+    .btn{
+        @include main-btn(20%);
+    }
+}

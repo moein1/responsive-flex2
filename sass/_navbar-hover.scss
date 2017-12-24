@@ -1,0 +1,36 @@
+#navbar-hover {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 66px;
+    background: $white-color;
+    border: 1px solid $gray-color;
+    height: 0;
+    width: 100%;
+    animation-name: navbar;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    #navbar-hover-ride {
+        display: none;
+    }
+    #navbar-hover-drive {
+        display: none;
+    }
+    ul {
+        margin-left: 15%;
+        width: 60%;
+        li {
+            display: inline-block;
+            width: 24%;
+            padding-top: 7px;
+            a{
+                color: darken($gray-color, 40%);
+                transition: color ease-out 300ms;
+                &:hover{
+                    color: $blue-color;
+                }
+            }
+        }
+    }
+}

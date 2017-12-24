@@ -1,0 +1,21 @@
+.advertise{
+    margin: 5% ;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    .one-third{
+        flex-grow: 1;
+        margin: 2%;
+        img{
+            width:100%;
+        }
+    
+        h3{
+            margin: 4% 0;
+        }
+        p{
+            line-height: 1.7;
+        }
+    }
+   
+}

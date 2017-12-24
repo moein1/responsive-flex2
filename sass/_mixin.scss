@@ -1,0 +1,13 @@
+@mixin main-btn($width) {
+    color: $white-color;
+    background: darken($blue-color, 20%);
+    width: $width;
+    text-align: center;
+    padding: 1% 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: background ease 300ms;
+    &:hover {
+        background: darken($blue-color, 10%);
+    }
+}
